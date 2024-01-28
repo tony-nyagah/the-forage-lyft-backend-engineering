@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "the-forage-lyft-backend-engineering"
+version = "0.1.0"
+description = ""
+authors = ["Antony Nyagah"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pylint = "^3.0.3"
+ruff = "^0.1.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
